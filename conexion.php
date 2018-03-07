@@ -1,16 +1,12 @@
 <?php
-function conexionBD()
+function conexion_BD ()
 {
-		//CONEXION A LA BASE DE DATOS
-			define('DB_SERVER','localhost');
-			define('DB_NAME','usuarios');
-			define('DB_USER','root');
-			define('DB_PASS','');
-		
-			$con = new mysqli(DB_SERVER,DB_USER,DB_PASS,DB_NAME);
-			if ($con->connect_errno) 
-			{
-				echo "EROOR AL CONCECTAR CON MySQL: (" . $con->connect_errno . ") " . $con->connect_error;
-			}
+  $mysqli = new mysqli("localhost", "root", "", "gym");
+  if ($mysqli->connect_errno) {
+      echo "Falló la conexión a MySQL: (" . $mysqli->connect_errno . ") " . $mysqli->connect_error;
+  }
+  else
+
+  return $mysqli;
 }
 ?>

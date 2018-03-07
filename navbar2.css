@@ -1,0 +1,118 @@
+.container-fluid, #ulDrop{
+  background-color: #7d8fbf;
+  color: black;
+}
+
+a{
+  color: black;
+}
+
+#op1, #op2, #op3, #op4, #botonGestUsu, #botonPerfil{
+  color: black;
+}
+
+#botonVer{
+  background-color: #7d8fbf;
+  color: black;
+}
+
+#botonReserva{
+  background-color: #7d8fbf;
+  color: black;
+}
+
+#botonModificar{
+	background-color: #7d8fbf;
+  color: black;
+}
+#modalButton{
+	margin-top: 8px;
+  color: 7d8fbf;
+  border-color:black;
+}
+
+div.modal-header{
+
+	background-color: #7d8fbf;
+	border-color: black;
+}
+
+input.form-control{
+    width: 150px;
+    float: right;
+    margin-right: 20px;
+}
+
+
+#footer{
+
+    border-top-color: black;
+    border-top-style: inset;
+}
+
+/* Overline From Left */
+button.btn.btn-default1 {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  overflow: hidden;
+  background-color: transparent;
+  border-style: solid;
+  border-color: black;
+}
+button.btn.btn-default1:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  top: 0;
+  background: #FFF;
+  height: 4px;
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+button.btn.btn-default1:hover:before, button.btn.btn-default1:focus:before, button.btn.btn-default1:active:before {
+  right: 0;
+
+}
+
+#drop,#li1{
+  background-color: transparent;
+  color: black;
+}
+
+#drop:hover,#li1:hover{
+  background-color: transparent;
+  
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    border-color: black;
+    border-style: double;
+}
+.embed-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-color: black;
+    border-style: double;
+}
+
+textarea{
+  resize:none;
+}
+

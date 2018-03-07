@@ -1,0 +1,44 @@
+#botonEliminar{
+
+ background-color: #D02E0E;
+ color: black;
+
+}
+
+
+
+#botonModificar{
+
+ background-color: #7d8fbf;
+ color: black;
+ 
+}
+
+#botonGuardarCambios{
+
+ background-color: #279B13; 
+ color: black;
+
+}
+
+
+#botonAsignar{
+	background-color: lightgreen; 
+	color: black;
+}
+
+
+#botonAtras{
+	background-color: lightblue; 
+	color: black;
+}
+
+#botonCrear{
+	background-color: #B27842;
+	color: black;
+}
+
+#botonReserva{
+	background-color: lightgreen;
+	color: black;
+}
